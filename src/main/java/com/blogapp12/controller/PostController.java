@@ -53,6 +53,10 @@ public class PostController {
 
     }
 
+    @GetMapping("/hello")
+    public String syaHello(){
+        return "Hello World";
+    }
 
 
 }
