@@ -64,7 +64,7 @@ public class PostController {
     }
 
     @GetMapping("/allName/name/id")
-    public String getNames(){
+    public String getJava(){
         return "Java World";
     }
 
