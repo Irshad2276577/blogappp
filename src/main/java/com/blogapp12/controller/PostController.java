@@ -63,5 +63,10 @@ public class PostController {
         return "Irshad";
     }
 
+    @GetMapping("/allName/name/id")
+    public String getNames(){
+        return "Java World";
+    }
+
 
 }
